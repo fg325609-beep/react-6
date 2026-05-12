@@ -1,0 +1,137 @@
+// 1. O'zgaruvchilarni e'lon qilish (MUHIM!)
+$primary-color: #3498db;
+$text-black: #000000;
+$text-grey: #555555;
+$bg-color: #ffffff;
+$white: #ffffff; // SIZDA SHU YETISHMAYOTGAN EDI
+$breakpoint-md: 992px;
+$breakpoint-sm: 768px;
+
+// 2. Global container
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.hero_wrapper {
+  padding: 60px 0;
+  background-color: $bg-color;
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+
+  .hero_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+    .hero_left {
+      flex: 1;
+      max-width: 550px;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+
+      .text_block {
+        h1 {
+          font-size: 56px;
+          font-weight: 800;
+          color: $primary-color;
+          line-height: 1.1;
+          margin-bottom: 15px;
+        }
+
+        p {
+          font-size: 16px;
+          color: $text-grey;
+          line-height: 1.6;
+          max-width: 400px;
+        }
+      }
+
+      .mid_anti_image {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 50px;
+
+        img {
+          width: 240px;
+          height: 240px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 2px solid $primary-color;
+          box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+      }
+
+      .btn_group {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        .contact-btn {
+          padding: 15px 40px;
+          font-size: 18px;
+          font-weight: 600;
+          color: $white; // Endi bu o'zgaruvchi xato bermaydi
+          background-color: $primary-color;
+          border: none;
+          border-radius: 50px;
+          cursor: pointer;
+          transition: 0.3s;
+          box-shadow: 0 5px 15px rgba(52, 152, 219, 0.3);
+
+          &:hover {
+            background-color: darken($primary-color, 10%);
+            transform: translateY(-2px);
+          }
+        }
+
+        .arrow_icon {
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          border: 2px solid $primary-color;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          cursor: pointer;
+          transition: 0.3s;
+
+          &:hover {
+            background-color: rgba(52, 152, 219, 0.1);
+          }
+        }
+      }
+    }
+
+    .hero_right {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+
+      img {
+        max-width: 100%;
+        height: auto;
+        border-radius: 20px;
+        box-shadow: 0 15px 50px rgba(0,0,0,0.15);
+      }
+    }
+  }
+}
+
+// Media Query qismi o'zgarishsiz qoladi...
+@media (max-width: $breakpoint-sm) {
+  .hero_wrapper .hero_content {
+    flex-direction: column-reverse;
+    text-align: center;
+    .hero_left {
+        align-items: center;
+        .mid_anti_image { margin-left: 0; }
+        .btn_group { justify-content: center; }
+    }
+  }
+}

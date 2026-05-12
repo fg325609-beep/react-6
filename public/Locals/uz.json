@@ -5,5 +5,10 @@
         "services" : "Xizmatlarimiz",
         "contact": "Aloqa",
         "login": "Kirish"
+    },
+    "hero":{
+        "title":"Dizenfeksiya xizmati ",
+        "text":"Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
+        "btn2":"Bog’lanish"
     }
 }

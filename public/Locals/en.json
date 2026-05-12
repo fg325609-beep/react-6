@@ -5,5 +5,10 @@
         "services": "Our Services",
         "contact": "Contact",
         "login": "Login"
+    },
+    "hero": {
+        "title": "Disinfection Service",
+        "text": "Our company has been operating for many years, and our clients are completely satisfied with us.",
+        "btn2": "Contact Us"
     }
 }
