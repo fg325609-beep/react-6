@@ -10,5 +10,26 @@
         "title":"Dizenfeksiya xizmati ",
         "text":"Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun",
         "btn2":"Bog’lanish"
-    }
+    },
+    "sectionone": {
+    "cards": [
+      {
+        "title": "Tezda xizmat ko’rsatish",
+        "text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+      },
+      {
+        "title": "Yetuk mutahassislarimiz",
+        "text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+      },
+      {
+        "title": "Sizga ma'qul vaqtda",
+        "text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamiz Mijozlarimiz bizdan mamnun"
+      }
+    ]
+  },
+ "Sectiontwo": {
+    "title": "Klapa va zararli hashorotlar endi yo’q deb hisoblang !!!",
+    "text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamizdan barcha mijozlarimiz mamnun",
+    "btn3": "Bog’lanish"
+  }
 }

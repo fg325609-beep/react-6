@@ -10,5 +10,26 @@
         "title": "Disinfection Service",
         "text": "Our company has been operating for many years, and our clients are completely satisfied with us.",
         "btn2": "Contact Us"
-    }
+    },
+    "sectionone": {
+    "cards": [
+      {
+        "title": "Fast Service",
+        "text": "Our company, which has been operating for many years, makes our customers happy with its performance"
+      },
+      {
+        "title": "Our Expert Professionals",
+        "text": "Our company, which has been operating for many years, makes our customers happy with its performance"
+      },
+      {
+        "title": "At a Time Convenient for You",
+        "text": "Our company, which has been operating for many years, makes our customers happy with its performance"
+      }
+    ]
+  },
+  "Sectiontwo": {
+    "title": "Consider bedbugs and harmful insects gone for good !!!",
+    "text": "Our company has been operating for many years, and all our customers are satisfied with our service",
+    "btn3": "Contact Us"
+  }
 }

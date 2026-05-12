@@ -1,6 +1,7 @@
 import Header from "./companents/Header/Header"
 import Hero from "./companents/Hero/Hero"
 import Sectionone from "./companents/Sectionone/Sectionone"
+import Sectiontwo from "./companents/Sectiontwo/Sectiontwo"
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
     <Header/>
     <Hero/>
     <Sectionone/>
+    <Sectiontwo/>
     </>
   )
 }

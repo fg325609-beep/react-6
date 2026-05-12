@@ -1,7 +1,6 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
-import "./Hero.scss";
-
+import "./Hero.scss"
 const Hero = () => { // Nomini Hero qildik
   const { t } = useTranslation();
 
