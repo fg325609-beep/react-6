@@ -1,9 +1,9 @@
-
+import Header from "./companents/Header/Header"
 function App() {
 
   return (
     <>
-    
+    <Header/>
     </>
   )
 }
