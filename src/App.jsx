@@ -4,6 +4,7 @@ import Sectionone from "./companents/Sectionone/Sectionone"
 import Sectiontwo from "./companents/Sectiontwo/Sectiontwo"
 import Sectiontheare from "./companents/Sectiontheare/Sectiontheare"
 import Sectionfoo from "./companents/Sectionfoo/Sectionfoo"
+import Sectionfive from "./companents/Sectionfive/Sectionfive"
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
     <Sectiontwo/>
     <Sectiontheare/>
     <Sectionfoo/>
+    <Sectionfive/>
     </>
   )
 }
