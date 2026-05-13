@@ -31,5 +31,32 @@
     "title": "Klapa va zararli hashorotlar endi yo’q deb hisoblang !!!",
     "text": "Bizning ko’p yillardan beri o’z faoliyatini olib kelayotgan kompaniyamizdan barcha mijozlarimiz mamnun",
     "btn3": "Bog’lanish"
+  },
+  "service": {
+    "title": "Service",
+    "subtitle": "Bu darsliklar sizning yuqori darajaga erishishingizga yordam beradi",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Boshlang’ich tushunchalar",
+        "category": "Nazariy Bilimlar",
+        "lessons": "16 dars",
+        "icon": "faBookOpen"
+      },
+      {
+        "id": 2,
+        "title": "O’rta",
+        "category": "Nazariy Va Amaliy Bilimlar",
+        "lessons": "23 dars",
+        "icon": "faLayerGroup"
+      },
+      {
+        "id": 3,
+        "title": "Yuqori",
+        "category": "Amaliy Bilimlar",
+        "lessons": "16 dars",
+        "icon": "faGraduationCap"
+      }
+    ]
   }
 }

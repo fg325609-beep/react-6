@@ -31,5 +31,32 @@
     "title": "Consider bedbugs and harmful insects gone for good !!!",
     "text": "Our company has been operating for many years, and all our customers are satisfied with our service",
     "btn3": "Contact Us"
+  },
+  "service": {
+    "title": "Service",
+    "subtitle": "These lessons will help you reach a high level",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Basic Concepts",
+        "category": "Theoretical Knowledge",
+        "lessons": "16 lessons",
+        "icon": "faBookOpen"
+      },
+      {
+        "id": 2,
+        "title": "Intermediate",
+        "category": "Theoretical and Practical Knowledge",
+        "lessons": "23 lessons",
+        "icon": "faLayerGroup"
+      },
+      {
+        "id": 3,
+        "title": "Advanced",
+        "category": "Practical Knowledge",
+        "lessons": "16 lessons",
+        "icon": "faGraduationCap"
+      }
+    ]
   }
 }

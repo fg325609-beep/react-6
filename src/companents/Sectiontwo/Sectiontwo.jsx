@@ -1,9 +1,9 @@
 import React from 'react';
-import { useTranslation } from 'react-i18next'; // 1. Hookni import qilamiz
+import { useTranslation } from 'react-i18next'; 
 import "./Sectiontwo.scss";
 
 const Sectiontwo = () => {
-  const { t } = useTranslation(); // 2. "t" funksiyasini e'lon qilamiz
+  const { t } = useTranslation(); 
 
   return (
     <>
@@ -12,7 +12,7 @@ const Sectiontwo = () => {
           <div className="content">
             <h2>{t("Sectiontwo.title")}</h2>
             <p>{t("Sectiontwo.text")}</p>
-            <button className="contact_btn">{t("Sectiontwo.btn3")}</button>
+            <a href='href=https://t.me/send_masage_bot' className="contact_btn">{t("Sectiontwo.btn3")}</a>
           </div>
         </div>
       </section>

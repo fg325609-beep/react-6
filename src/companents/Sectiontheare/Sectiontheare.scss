@@ -1,0 +1,110 @@
+$primary-blue: #007bff;
+$light-bg: #f8f9fa;
+$text-dark: #0a1128;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.service_section {
+  padding: 100px 0;
+
+  .section_header {
+    margin-bottom: 50px;
+    h1 {
+      font-size: 64px;
+      font-weight: 900;
+      color: $text-dark;
+      margin-bottom: 10px;
+    }
+    p {
+      color: #555;
+      max-width: 300px;
+      font-size: 16px;
+    }
+  }
+
+  .service_cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+  }
+
+  .service_card {
+    background-color: $light-bg;
+    padding: 40px;
+    border-radius: 20px;
+    position: relative;
+    min-height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+    border: 2px solid transparent;
+
+    // Dizayndagi birinchi kartaga border berish
+    &:first-child {
+      border: 2px solid $primary-blue;
+    }
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    }
+
+    h2 {
+      font-size: 32px;
+      font-weight: 800;
+      color: $text-dark;
+      margin-bottom: 15px;
+      max-width: 200px;
+    }
+
+    .category {
+      display: block;
+      color: $primary-blue;
+      font-weight: 600;
+      margin-bottom: 8px;
+    }
+
+    .lesson_count {
+      color: $primary-blue;
+      text-decoration: underline;
+      font-size: 14px;
+    }
+
+    .card_icon_bottom {
+      align-self: flex-end;
+      svg {
+        font-size: 60px;
+        color: $primary-blue;
+        opacity: 0.8;
+      }
+    }
+  }
+}
+
+// Media Query (100px gacha)
+@media (max-width: 992px) {
+  .service_section .service_cards {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .service_section {
+    .section_header h1 { font-size: 40px; }
+    .service_cards { grid-template-columns: 1fr; }
+  }
+}
+
+@media (max-width: 300px) {
+  .service_section .service_card {
+    padding: 20px;
+    width: 100%;
+    h2 { font-size: 24px; }
+  }
+}
