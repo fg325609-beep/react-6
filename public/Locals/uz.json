@@ -82,5 +82,15 @@
         "answer": "Ha, kursni muvaffaqiyatli yakunlagan barcha talabalarga maxsus sertifikat taqdim etiladi."
       }
     ]
+  },
+  "sectionsix": {
+    "title": "Ma'lumotingizni qoldiring",
+    "subtitle": "Bizga ko'p yillardan beri kompaniyamizga ishonch bildirganlar talaygina",
+    "label_name": "Ismingizni kiriting*",
+    "placeholder_name": "Ism",
+    "label_phone": "Telefon raqamingizni kiriting*",
+    "privacy": "Maxfiylik siyosati",
+    "btn_send": "Yozilish",
+    "success": "Xabar yuborildi"
   }
 }

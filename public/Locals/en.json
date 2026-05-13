@@ -82,5 +82,15 @@
         "answer": "Yes, all students who successfully complete the course will receive a special certificate."
       }
     ]
+  },
+  "sectionsix": {
+    "title": "Leave your information",
+    "subtitle": "Many people have trusted our company for many years",
+    "label_name": "Enter your name*",
+    "placeholder_name": "Name",
+    "label_phone": "Enter your phone number*",
+    "privacy": "Privacy policy",
+    "btn_send": "Register",
+    "success": "Message sent"
   }
 }
