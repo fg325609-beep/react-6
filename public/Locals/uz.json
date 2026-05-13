@@ -62,5 +62,25 @@
   "sectionfoo": {
     "title": "Bizga ko'p yillardan beri kompaniyamizga ishonch bildirganlar talaygina",
     "btn": "Bog'lanish"
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Kursdan nima topaman?",
+        "answer": "Bu bir darsga qatnasha olmasangiz, darsdan so'ng guruhingizga zoom zapisi tashlab beriladi."
+      },
+      {
+        "id": 2,
+        "question": "O'qish muddati qancha?",
+        "answer": "O'qish muddati tanlangan kursga qarab 3 oydan 6 oygacha davom etadi."
+      },
+      {
+        "id": 3,
+        "question": "Sertifikat beriladimi?",
+        "answer": "Ha, kursni muvaffaqiyatli yakunlagan barcha talabalarga maxsus sertifikat taqdim etiladi."
+      }
+    ]
   }
 }

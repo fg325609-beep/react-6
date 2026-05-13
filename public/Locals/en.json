@@ -62,5 +62,25 @@
   "sectionfoo": {
     "title": "Many have trusted our company for many years",
     "btn": "Contact Us"
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": [
+      {
+        "id": 1,
+        "question": "What will I get from the course?",
+        "answer": "If you cannot attend a class, a Zoom recording will be shared with your group after the lesson."
+      },
+      {
+        "id": 2,
+        "question": "How long is the study period?",
+        "answer": "The duration of the course is between 3 and 6 months depending on the selected program."
+      },
+      {
+        "id": 3,
+        "question": "Is a certificate provided?",
+        "answer": "Yes, all students who successfully complete the course will receive a special certificate."
+      }
+    ]
   }
 }

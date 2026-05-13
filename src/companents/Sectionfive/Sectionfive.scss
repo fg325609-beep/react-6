@@ -1,0 +1,100 @@
+$text-dark: #0a1128;
+$primary-blue: #2563eb;
+$border-color: #e5e7eb;
+
+.section_five {
+  padding: 100px 0;
+
+  .faq_wrapper {
+    display: flex;
+    gap: 100px;
+  }
+
+  .faq_left {
+    flex: 1;
+    h1 {
+      font-size: 80px;
+      font-weight: 900;
+      color: $text-dark;
+      position: sticky;
+      top: 100px;
+    }
+  }
+
+  .faq_right {
+    flex: 2;
+
+    .faq_item {
+      border-bottom: 1px solid $border-color;
+      padding: 25px 0;
+      transition: all 0.3s ease;
+
+      .faq_question {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        cursor: pointer;
+
+        h3 {
+          font-size: 24px;
+          font-weight: 600;
+          color: #4b5563;
+          transition: color 0.3s ease;
+        }
+
+        .icon_box {
+          width: 45px;
+          height: 45px;
+          background: #f3f4f6;
+          border-radius: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #9ca3af;
+          transition: all 0.3s ease;
+        }
+      }
+
+      .faq_answer {
+        max-height: 0;
+        overflow: hidden;
+        transition: max-height 0.4s ease, margin 0.3s ease;
+        p {
+          color: #6b7280;
+          font-size: 18px;
+          line-height: 1.6;
+          padding-top: 15px;
+        }
+      }
+
+      // Savol ochiq bo'lganda
+      &.active {
+        .faq_question h3 { color: $text-dark; font-weight: 800; }
+        .icon_box {
+          background: $primary-blue;
+          color: white;
+        }
+        .faq_answer {
+          max-height: 200px; // Matn uzunligiga qarab
+        }
+      }
+    }
+  }
+}
+
+// Media Query (100px gacha)
+@media (max-width: 992px) {
+  .section_five {
+    .faq_wrapper {
+      flex-direction: column;
+      gap: 40px;
+    }
+    .faq_left h1 { font-size: 50px; position: static; }
+  }
+}
+
+@media (max-width: 480px) {
+  .section_five .faq_right .faq_item .faq_question h3 {
+    font-size: 18px;
+  }
+}
