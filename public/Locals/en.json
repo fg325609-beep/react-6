@@ -92,5 +92,15 @@
     "privacy": "Privacy policy",
     "btn_send": "Register",
     "success": "Message sent"
+  },
+  "footer": {
+    "logo_text": "Dizenfeksiya",
+    "address": "Tashkent city, Yashnabad district, landmark Sergeli-4 station",
+    "phone": "+998 94 099 3434",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    }
   }
 }

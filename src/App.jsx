@@ -6,6 +6,7 @@ import Sectiontheare from "./companents/Sectiontheare/Sectiontheare"
 import Sectionfoo from "./companents/Sectionfoo/Sectionfoo"
 import Sectionfive from "./companents/Sectionfive/Sectionfive"
 import Sectionsix from "./companents/Sectionsix/Sectionsix"
+import Footer from "./companents/Footer/Footer"
 function App() {
 
   return (
@@ -18,6 +19,7 @@ function App() {
     <Sectionfoo/>
     <Sectionfive/>
     <Sectionsix/>
+    <Footer/>
     </>
   )
 }

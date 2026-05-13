@@ -92,5 +92,15 @@
     "privacy": "Maxfiylik siyosati",
     "btn_send": "Yozilish",
     "success": "Xabar yuborildi"
+  },
+  "footer": {
+    "logo_text": "Dizenfeksiya",
+    "address": "Toshkent shahri, Yashnabod tumani, Mo'ljal Sergeli-4 bekat",
+    "phone": "+998 94 099 3434",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    }
   }
 }

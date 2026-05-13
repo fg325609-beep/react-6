@@ -92,5 +92,15 @@
     "privacy": "Политика конфиденциальности",
     "btn_send": "Записаться",
     "success": "Сообщение отправлено"
+  },
+  "footer": {
+    "logo_text": "Dizenfeksiya",
+    "address": "город Ташкент, Яшнабадский район, ориентир станция Сергели-4",
+    "phone": "+998 94 099 3434",
+    "socials": {
+      "facebook": "Facebook",
+      "instagram": "Instagram",
+      "telegram": "Telegram"
+    }
   }
 }
